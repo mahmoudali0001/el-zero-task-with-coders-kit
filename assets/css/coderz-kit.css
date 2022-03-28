@@ -1,0 +1,944 @@
+/* Start The coder-kit Code */
+
+/* start Container class with all screen */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small Screen */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium Screen */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large Screen */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Container class with all screen */
+
+/* Start Background Color */
+.bg-none {
+  background-color: transparent;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-black {
+  background-color: black;
+}
+.bg-light {
+  background-color: #f8f9fa;
+}
+.bg-primary {
+  background-color: #007bff;
+}
+.bg-secondary {
+  background-color: #6c757d;
+}
+.bg-success {
+  background-color: #28a745;
+}
+.bg-danger {
+  background-color: #dc3545;
+}
+/* End Background Color */
+/* Start Border Class's And Border Radius*/
+.border {
+  border: 1px solid;
+}
+
+.border-top {
+  border-top: 1px solid;
+}
+
+.border-left {
+  border-left: 1px solid;
+}
+
+.border-right {
+  border-right: 1px solid;
+}
+
+.border-bottom {
+  border-bottom: 1px solid;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-top-0 {
+  border-top: 0;
+}
+
+.border-right-0 {
+  border-right: 0;
+}
+
+.border-left-0 {
+  border-left: 0;
+}
+
+.border-bottom-0 {
+  border-bottom: 0;
+}
+
+.border-dotted {
+  border: 1px dotted #eee;
+}
+
+.border-dashed {
+  border: 1px dashed #eee;
+}
+
+/* Start Border Color */
+.border-primary {
+  border: 1px solid #007bff;
+}
+.border-secondary {
+  border: 1px solid #6c757d;
+}
+.border-success {
+  border: 1px solid #28a745;
+}
+.border-danger {
+  border: 1px solid #dc3545;
+}
+/* Start Border Color */
+
+/* Start Border Radius*/
+.radius-circle {
+  border-radius: 50%;
+}
+.radius-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.radius-right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.radius-top-left {
+  border-top-left-radius: 10px;
+}
+.radius-top-right {
+  border-top-right-radius: 10px;
+}
+.radius-bottom-left {
+  border-bottom-left-radius: 10px;
+}
+.radius-bottom-right {
+  border-bottom-right-radius: 10px;
+}
+/* End Border Radius*/
+/* Start Margin */
+.mar-5 {
+  margin: 5;
+}
+
+.mar-l-5 {
+  margin-left: 5;
+}
+
+.mar-r-5 {
+  margin-right: 5;
+}
+
+.mar-b-5 {
+  margin-bottom: 5;
+}
+
+.mar-t-5 {
+  margin-top: 5;
+}
+
+.mar-10 {
+  margin: 10;
+}
+
+.mar-l-10 {
+  margin-left: 10;
+}
+
+.mar-r-10 {
+  margin-right: 10;
+}
+
+.mar-b-10 {
+  margin-bottom: 10;
+}
+
+.mar-t-10 {
+  margin-top: 10;
+}
+
+.mar-15 {
+  margin: 15;
+}
+
+.mar-l-15 {
+  margin-left: 15;
+}
+
+.mar-r-15 {
+  margin-right: 15;
+}
+
+.mar-b-15 {
+  margin-bottom: 15;
+}
+
+.mar-t-15 {
+  margin-top: 15;
+}
+
+.mar-20 {
+  margin: 20;
+}
+
+.mar-l-20 {
+  margin-left: 20;
+}
+
+.mar-r-20 {
+  margin-right: 20;
+}
+
+.mar-b-20 {
+  margin-bottom: 20;
+}
+
+.mar-t-20 {
+  margin-top: 20;
+}
+
+/* End Margin */
+/* Start Paddding */
+.pad-5 {
+  padding: 5;
+}
+
+.pad-l-5 {
+  padding-left: 5;
+}
+
+.pad-r-5 {
+  padding-right: 5;
+}
+
+.pad-b-5 {
+  padding-bottom: 5;
+}
+
+.pad-t-5 {
+  padding-top: 5;
+}
+
+.pad-10 {
+  padding: 10;
+}
+
+.pad-l-10 {
+  padding-left: 10;
+}
+
+.pad-r-10 {
+  padding-right: 10;
+}
+
+.pad-b-10 {
+  padding-bottom: 10;
+}
+
+.pad-t-10 {
+  padding-top: 10;
+}
+
+.pad-15 {
+  padding: 15;
+}
+
+.pad-l-15 {
+  padding-left: 15;
+}
+
+.pad-r-15 {
+  padding-right: 15;
+}
+
+.pad-b-15 {
+  padding-bottom: 15;
+}
+
+.pad-t-15 {
+  padding-top: 15;
+}
+
+.pad-20 {
+  padding: 20;
+}
+
+.pad-l-20 {
+  padding-left: 20;
+}
+
+.pad-r-20 {
+  padding-right: 20;
+}
+
+.pad-b-20 {
+  padding-bottom: 20;
+}
+
+.pad-t-20 {
+  padding-top: 20;
+}
+/* End  Paddding */
+/* Start Flex */
+/*
+  -Position
+  -Top
+  -Left
+  -Right
+  -Bottom
+*/
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.pos-fix {
+  position: fixed;
+}
+
+.pos-sta {
+  position: static;
+}
+
+.top-0 {
+  top: 0%;
+}
+
+.left-0 {
+  left: 0%;
+}
+
+.right-0 {
+  left: 0%;
+}
+
+.bottom-0 {
+  left: 0%;
+}
+
+.top-5 {
+  top: 5%;
+}
+
+.left-5 {
+  left: 5%;
+}
+
+.right-5 {
+  left: 5%;
+}
+
+.bottom-5 {
+  left: 5%;
+}
+
+.top-10 {
+  top: 10%;
+}
+
+.left-10 {
+  left: 10%;
+}
+
+.right-10 {
+  left: 10%;
+}
+
+.bottom-10 {
+  left: 10%;
+}
+
+.top-15 {
+  top: 15%;
+}
+
+.left-15 {
+  left: 15%;
+}
+
+.right-15 {
+  left: 15%;
+}
+
+.bottom-15 {
+  left: 15%;
+}
+
+.top-20 {
+  top: 20%;
+}
+
+.left-20 {
+  left: 20%;
+}
+
+.right-20 {
+  left: 20%;
+}
+
+.bottom-20 {
+  left: 20%;
+}
+
+.top-25 {
+  top: 25%;
+}
+
+.left-25 {
+  left: 25%;
+}
+
+.right-25 {
+  left: 25%;
+}
+
+.bottom-25 {
+  left: 25%;
+}
+
+.top-30 {
+  top: 30%;
+}
+
+.left-30 {
+  left: 30%;
+}
+
+.right-30 {
+  left: 30%;
+}
+
+.bottom-30 {
+  left: 30%;
+}
+
+.top-35 {
+  top: 35%;
+}
+
+.left-35 {
+  left: 35%;
+}
+
+.right-35 {
+  left: 35%;
+}
+
+.bottom-35 {
+  left: 35%;
+}
+
+.top-40 {
+  top: 40%;
+}
+
+.left-40 {
+  left: 40%;
+}
+
+.right-40 {
+  left: 40%;
+}
+
+.bottom-40 {
+  left: 40%;
+}
+
+.top-45 {
+  top: 45%;
+}
+
+.left-45 {
+  left: 45%;
+}
+
+.right-45 {
+  left: 45%;
+}
+
+.bottom-45 {
+  left: 45%;
+}
+
+.top-50 {
+  top: 50%;
+}
+
+.left-50 {
+  left: 50%;
+}
+
+.right-50 {
+  left: 50%;
+}
+
+.bottom-50 {
+  left: 50%;
+}
+
+.top-55 {
+  top: 55%;
+}
+
+.left-55 {
+  left: 55%;
+}
+
+.right-55 {
+  left: 55%;
+}
+
+.bottom-55 {
+  left: 55%;
+}
+
+.top-60 {
+  top: 60%;
+}
+
+.left-60 {
+  left: 60%;
+}
+
+.right-60 {
+  left: 60%;
+}
+
+.bottom-60 {
+  left: 60%;
+}
+
+.top-65 {
+  top: 65%;
+}
+
+.left-65 {
+  left: 65%;
+}
+
+.right-65 {
+  left: 65%;
+}
+
+.bottom-65 {
+  left: 65%;
+}
+
+.top-70 {
+  top: 70%;
+}
+
+.left-70 {
+  left: 70%;
+}
+
+.right-70 {
+  left: 70%;
+}
+
+.bottom-70 {
+  left: 70%;
+}
+
+.top-75 {
+  top: 75%;
+}
+
+.left-75 {
+  left: 75%;
+}
+
+.right-75 {
+  left: 75%;
+}
+
+.bottom-75 {
+  left: 75%;
+}
+
+.top-80 {
+  top: 80%;
+}
+
+.left-80 {
+  left: 80%;
+}
+
+.right-80 {
+  left: 80%;
+}
+
+.bottom-80 {
+  left: 80%;
+}
+
+.top-85 {
+  top: 85%;
+}
+
+.left-85 {
+  left: 85%;
+}
+
+.right-85 {
+  left: 85%;
+}
+
+.bottom-85 {
+  left: 85%;
+}
+
+.top-90 {
+  top: 90%;
+}
+
+.left-90 {
+  left: 90%;
+}
+
+.right-90 {
+  left: 90%;
+}
+
+.bottom-90 {
+  left: 90%;
+}
+
+.top-95 {
+  top: 95%;
+}
+
+.left-95 {
+  left: 95%;
+}
+
+.right-95 {
+  left: 95%;
+}
+
+.bottom-95 {
+  left: 95%;
+}
+
+.top-100 {
+  top: 100%;
+}
+
+.left-100 {
+  left: 100%;
+}
+
+.right-100 {
+  left: 100%;
+}
+
+.bottom-100 {
+  left: 100%;
+}
+/* End Flex */
+/*
+    CSS Reset => Reset css file to default values like : margin, padding, border, and so on ...
+*/
+.r-css {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* Start Display Flex */
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.d-flex-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.d-flex-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.d-flex-evenly {
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.flex-str {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.flex-end {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* End Display Flex */
+
+/* Start The Grid system */
+.d-grid {
+  display: -ms-grid;
+  display: grid;
+}
+.g-align-content-center {
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+.g-align-content-baseline {
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+.g-align-content-space-around {
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+}
+.g-align-content-space-evenly {
+  align-content: space-evenly;
+}
+.g-align-content-stretch {
+  align-content: stretch;
+}
+
+.g-justify-content-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.g-justify-content-end {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+}
+
+.g-justify-content-start {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
+.g-justify-content-space-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.g-justify-content-space-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.g-justify-content-space-evenly {
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.g-align-items-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.g-align-items-start {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.g-align-items-end {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.g-align-items-stretch {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.g-align-items-baseline {
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.g-justify-items-center {
+  justify-items: center;
+}
+
+.g-justify-items-start {
+  justify-items: start;
+}
+
+.g-justify-items-end {
+  justify-items: end;
+}
+
+.g-justify-items-stretch {
+  justify-items: stretch;
+}
+
+.col-1 {
+  grid-template-columns: 1fr;
+}
+
+.col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.col-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.col-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.col-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.col-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.col-9 {
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.col-10 {
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.col-11 {
+  grid-template-columns: repeat(11, 1fr);
+}
+
+.col-12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/* Col In Medium Screen */
+@media (max-width: 768px) {
+  .col-m-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .col-m-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .col-m-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .col-m-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Col In Medium Screen */
+@media (max-width: 576px) {
+  .col-sm-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .col-sm-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .col-sm-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-20 {
+  gap: 15px;
+}
+
+/* End The Grid system */
+/* End Border Class's And Border Radius*/ ;
