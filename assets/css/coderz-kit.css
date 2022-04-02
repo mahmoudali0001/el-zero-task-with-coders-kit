@@ -1,5 +1,5 @@
 /* Start The coder-kit Code */
-
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
 /* start Container class with all screen */
 .container {
   padding-left: 15px;
@@ -27,6 +27,13 @@
 }
 /* End Container class with all screen */
 
+/* Start Text Center */
+.txt-center {
+  text-align: center;
+}
+
+/* End Text Center */
+
 /* Start Background Color */
 .bg-none {
   background-color: transparent;
@@ -51,6 +58,18 @@
 }
 .bg-danger {
   background-color: #dc3545;
+}
+
+.bg-dark-green {
+  background-color: #218c74;
+}
+
+.bg-dark-blue {
+  background-color: #227093;
+}
+
+.bg-dark-red {
+  background-color: #b33939;
 }
 /* End Background Color */
 /* Start Border Class's And Border Radius*/
@@ -142,25 +161,64 @@
   border-bottom-right-radius: 10px;
 }
 /* End Border Radius*/
+
+/* Start Fonts */
+
+.cairo {
+  font-family: "Cairo", sans-serif;
+}
+
+/* End Fonts */
+
+/* Start Text Color */
+
+.txt-white {
+  color: #fff;
+}
+
+.txt-black {
+  color: #000;
+}
+
+.txt-primary {
+  color: #007bff;
+}
+.txt-secondary {
+  color: #6c757d;
+}
+.txt-success {
+  color: #28a745;
+}
+.txt-danger {
+  color: #dc3545;
+}
+
+/* End Text Color */
+
 /* Start Margin */
+
+.mar-0 {
+  margin: 0;
+}
+
 .mar-5 {
   margin: 5;
 }
 
 .mar-l-5 {
-  margin-left: 5;
+  margin-left: 5px;
 }
 
 .mar-r-5 {
-  margin-right: 5;
+  margin-right: 5px;
 }
 
 .mar-b-5 {
-  margin-bottom: 5;
+  margin-bottom: 5px;
 }
 
 .mar-t-5 {
-  margin-top: 5;
+  margin-top: 5px;
 }
 
 .mar-10 {
@@ -176,7 +234,7 @@
 }
 
 .mar-b-10 {
-  margin-bottom: 10;
+  margin-bottom: 10px;
 }
 
 .mar-t-10 {
@@ -226,7 +284,7 @@
 /* End Margin */
 /* Start Paddding */
 .pad-5 {
-  padding: 5;
+  padding: 5px;
 }
 
 .pad-l-5 {
@@ -250,19 +308,19 @@
 }
 
 .pad-l-10 {
-  padding-left: 10;
+  padding-left: 10px;
 }
 
 .pad-r-10 {
-  padding-right: 10;
+  padding-right: 10px;
 }
 
 .pad-b-10 {
-  padding-bottom: 10;
+  padding-bottom: 10px;
 }
 
 .pad-t-10 {
-  padding-top: 10;
+  padding-top: 10px;
 }
 
 .pad-15 {
@@ -298,11 +356,11 @@
 }
 
 .pad-b-20 {
-  padding-bottom: 20;
+  padding-bottom: 20px;
 }
 
 .pad-t-20 {
-  padding-top: 20;
+  padding-top: 20px;
 }
 /* End  Paddding */
 /* Start Flex */
@@ -734,6 +792,16 @@
   flex-wrap: wrap;
 }
 
+.align-items-center {
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .direction-column {
+    flex-direction: column;
+  }
+}
+
 /* End Display Flex */
 
 /* Start The Grid system */
@@ -937,8 +1005,208 @@
 }
 
 .gap-20 {
-  gap: 15px;
+  gap: 20px;
 }
 
 /* End The Grid system */
-/* End Border Class's And Border Radius*/ ;
+/* End Border Class's And Border Radius*/
+
+/* Start Font size */
+.font-size-5 {
+  font-size: 5px;
+}
+
+.font-size-10 {
+  font-size: 10px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.font-size-40 {
+  font-size: 40px;
+}
+
+.font-size-50 {
+  font-size: 50px;
+}
+
+.font-size-60 {
+  font-size: 60px;
+}
+
+.font-size-70 {
+  font-size: 70px;
+}
+
+.font-size-80 {
+  font-size: 80px;
+}
+/* End Font size */
+
+.txt-400 {
+  font-weight: 400;
+}
+
+.txt-bold {
+  font-weight: bold;
+}
+
+/* Start Width */
+
+.width-10 {
+  width: 10%;
+}
+
+.width-20 {
+  width: 20%;
+}
+
+.width-30 {
+  width: 30%;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.width-70 {
+  width: 70%;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-5px {
+  width: 5px;
+}
+
+.width-15px {
+  width: 15px;
+}
+
+.width-25px {
+  width: 25px;
+}
+
+.width-25px {
+  width: 25px;
+}
+
+.width-45px {
+  width: 45px;
+}
+
+.width-55px {
+  width: 55px;
+}
+
+.width-65px {
+  width: 65px;
+}
+
+.width-75px {
+  width: 75px;
+}
+
+.width-85px {
+  width: 85px;
+}
+
+.width-95px {
+  width: 95px;
+}
+
+.width-100px {
+  width: 100px;
+}
+
+/* End Width */
+
+/* Start height */
+.height-10 {
+  height: 10%;
+}
+
+.height-20 {
+  height: 20%;
+}
+
+.height-30 {
+  height: 30%;
+}
+
+.height-40 {
+  height: 40%;
+}
+
+.height-50 {
+  height: 50%;
+}
+
+.height-60 {
+  height: 60%;
+}
+
+.height-70 {
+  height: 70%;
+}
+
+.height-80 {
+  height: 80%;
+}
+
+.height-90 {
+  height: 90%;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+/* Start height */
+.m-auto {
+  margin: auto;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.float-r {
+  float: right;
+}
+
+.float-l {
+  float: left;
+}
+
+.float-none {
+  float: none;
+}
